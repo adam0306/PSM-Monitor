@@ -8,7 +8,7 @@ import (
 
 func main() {
 
-	resp, err := http.Get("http://example.com")
+	resp, err := http.Get("http://<psm>/psm/api/health")
 
 	if err != nil {
 		log.Fatal(err)
